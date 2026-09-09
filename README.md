@@ -1,7 +1,27 @@
-👋 Hi, I’m Ammar — a student getting into coding, learning, and experimenting here and there.  
-👀 I’m interested in gaming and coding.  
-🌱 I’m just getting started — exploring coding, tools, and figuring out what clicks.  
-💞️ Maybe down to collaborate once I find my footing.  
-📫 How to reach me: ammarahmednot@gmail.com or on Discord @ammarahmed_31  
-😄 Pronouns: he/him  
-⚡ Fun fact: I stress over the tiniest things, but it keeps life interesting. 😅
+# Ammar Ahmed
+
+Web developer building modern, interactive websites.
+
+I work mainly with **React, Next.js, TypeScript, Tailwind CSS, Node.js, and MongoDB**, with a focus on clean interfaces, smooth interactions, and practical products.
+
+### What I work with
+
+**Frontend:** React · Next.js · TypeScript · Tailwind CSS · GSAP
+
+**Backend:** Node.js · REST APIs · MongoDB · Firebase
+
+**Currently:** Building projects, improving my frontend skills, and taking on web development work.
+
+### Featured project
+
+**Fit Pro Gym** — a modern gym website built with a focus on animation, responsive design, and a clean user experience.
+
+[Visit website](https://fit-pro-gamma.vercel.app/#home)
+
+### Find me
+
+[Portfolio](https://ammarahmed.dev) · [GitHub](https://github.com/ammarahmeddevv) · [Fiverr](https://www.fiverr.com/ammarweb_dev)
+
+---
+
+Building things, breaking things, fixing them, and learning along the way.
