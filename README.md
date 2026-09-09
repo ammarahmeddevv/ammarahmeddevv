@@ -1,27 +1,53 @@
 # Ammar Ahmed
 
-Web developer building modern, interactive websites.
+**Junior Full-Stack Developer** building web and mobile applications.
 
-I work mainly with **React, Next.js, TypeScript, Tailwind CSS, Node.js, and MongoDB**, with a focus on clean interfaces, smooth interactions, and practical products.
+I like building things end to end — from interfaces and APIs to databases, authentication, deployment, and everything in between.
 
-### What I work with
+### Stack
 
-**Frontend:** React · Next.js · TypeScript · Tailwind CSS · GSAP
+**Languages**
+JavaScript · TypeScript · Python · Dart · SQL · HTML · CSS
 
-**Backend:** Node.js · REST APIs · MongoDB · Firebase
+**Web**
+React · Next.js · Tailwind CSS · GSAP · Three.js
 
-**Currently:** Building projects, improving my frontend skills, and taking on web development work.
+**Backend**
+Node.js · Express.js · REST APIs · WebSockets
 
-### Featured project
+**Mobile**
+Flutter · Dart
 
-**Fit Pro Gym** — a modern gym website built with a focus on animation, responsive design, and a clean user experience.
+**Data**
+PostgreSQL · MongoDB · Firebase · Prisma · Redis
 
-[Visit website](https://fit-pro-gamma.vercel.app/#home)
+**Infrastructure**
+Docker · Linux · Git · GitHub · GitHub Actions · Vercel · AWS
 
-### Find me
+**AI**
+OpenAI API · Anthropic API
 
-[Portfolio](https://ammarahmed.dev) · [GitHub](https://github.com/ammarahmeddevv) · [Fiverr](https://www.fiverr.com/ammarweb_dev)
+### Projects
 
----
+**Event Hub**
+Cross-platform mobile application built with Flutter and Firebase, including event discovery, real-time search, notifications, and event publishing.
 
-Building things, breaking things, fixing them, and learning along the way.
+**Full-Stack SaaS Dashboard**
+Admin and analytics platform built with Next.js, PostgreSQL, Prisma, Redis, Docker, and role-based authentication.
+
+**AI Chat Application**
+Real-time messaging platform with WebSockets and AI integrations using OpenAI and Anthropic APIs.
+
+**Nexora Technologies**
+Interactive agency website featuring GSAP animations, Three.js effects, responsive layouts, and performance optimization.
+
+### Experience
+
+**Mobile App Engineering Intern — Excelerate**
+May 2026 – July 2026
+
+Built cross-platform mobile applications with Flutter and Firebase while working with an international development team. Selected as a **Star Performer** and awarded a **$1,000 scholarship**.
+
+### Currently
+
+Building, experimenting, and getting better at shipping real software.
