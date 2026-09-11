@@ -6,13 +6,15 @@ I like building things end to end — from interfaces and APIs to databases, aut
 
 ### Stack
 
-**Languages** — JavaScript · TypeScript · Python · Dart · SQL · HTML · CSS
-**Web** — React · Next.js · Tailwind CSS · GSAP · Three.js
-**Backend** — Node.js · Express.js · REST APIs · WebSockets
-**Mobile** — Flutter · Dart
-**Data** — PostgreSQL · MongoDB · Firebase · Prisma · Redis
-**Infrastructure** — Docker · Linux · Git · GitHub · GitHub Actions · Vercel · AWS
-**AI** — OpenAI API · Anthropic API
+| | |
+|---|---|
+| **Languages** | JavaScript · TypeScript · Python · Dart · SQL · HTML · CSS |
+| **Web** | React · Next.js · Tailwind CSS · GSAP · Three.js |
+| **Backend** | Node.js · Express.js · REST APIs · WebSockets |
+| **Mobile** | Flutter · Dart |
+| **Data** | PostgreSQL · MongoDB · Firebase · Prisma · Redis |
+| **Infrastructure** | Docker · Linux · Git · GitHub · GitHub Actions · Vercel · AWS |
+| **AI** | OpenAI API · Anthropic API |
 
 ### Projects
 
@@ -22,8 +24,8 @@ Cross-platform mobile application built with Flutter and Firebase, including eve
 **LeadFlow**
 Lead-generation and outreach automation tool built with TypeScript and Node.js, syncing scored leads and personalized outreach messages into Google Sheets via the Sheets API, with a full CI/CD pipeline on GitHub Actions.
 
-**Personal Portfolio**
-Personal developer site (ammarahmed.dev) built with Next.js, GSAP, and Three.js, featuring scroll-driven animations and an interactive 3D career timeline.
+**Portfolio — ammarahmed.dev**
+Built with Next.js and TypeScript, with GSAP and Three.js driving a scroll-synced 3D career timeline. Backed by an automated QA suite covering linting, type-checking, and build verification.
 
 **Nexora Technologies**
 Interactive agency website featuring GSAP animations, Three.js effects, responsive layouts, and performance optimization.
