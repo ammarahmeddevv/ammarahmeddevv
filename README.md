@@ -6,9 +6,13 @@ I like building things end to end — from interfaces and APIs to databases, aut
 
 ### Stack
 
-![My Skills](https://skillicons.dev/icons?i=js,ts,python,dart,html,css,react,nextjs,tailwind,nodejs,express,flutter,postgres,mongodb,firebase,prisma,redis,docker,linux,git,github,aws,vercel)
-
-**Also working with:** GSAP · Three.js · WebSockets · REST APIs · OpenAI API · Anthropic API
+**Languages** — JavaScript · TypeScript · Python · Dart · SQL · HTML · CSS
+**Web** — React · Next.js · Tailwind CSS · GSAP · Three.js
+**Backend** — Node.js · Express.js · REST APIs · WebSockets
+**Mobile** — Flutter · Dart
+**Data** — PostgreSQL · MongoDB · Firebase · Prisma · Redis
+**Infrastructure** — Docker · Linux · Git · GitHub · GitHub Actions · Vercel · AWS
+**AI** — OpenAI API · Anthropic API
 
 ### Projects
 
