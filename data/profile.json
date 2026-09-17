@@ -1,0 +1,225 @@
+{
+  "$comment": "Single source of truth for the profile. Edit here, then run `npm run build`. Nothing in this file is inferred or estimated — every field is something Ammar can point at.",
+  "identity": {
+    "name": "Ammar Ahmed",
+    "fullName": "Muhammad Ammar Ahmed",
+    "role": "Full-Stack & Mobile Developer",
+    "location": "Karachi, Pakistan",
+    "locationShort": "Karachi, PK",
+    "timezone": "PKT / UTC+5",
+    "statement": "I build production web and mobile software end to end — client sites that have to convert, internal tools that have to be right, and pipelines that run without me.",
+    "available": true
+  },
+  "links": {
+    "$comment": "Only links that resolve today. Leave a value as null and it is omitted from every rendered surface — no dead links, no placeholder buttons.",
+    "github": "https://github.com/ammarahmeddevv",
+    "portfolio": "https://portfolio-ammarahmednot-8455s-projects.vercel.app",
+    "email": "work.ammarahmed@gmail.com",
+    "linkedin": null,
+    "website": null
+  },
+  "snapshot": {
+    "$comment": "The system readout. Four rows, not five: anything the masthead already says does not get repeated here. Keep every value under 32 characters — the panel is rendered type, not a reflowing table, and a long value clips instead of wrapping. The build warns if one overflows.",
+    "rows": [
+      {
+        "key": "BASE",
+        "value": "Karachi, PK · UTC+5 · remote"
+      },
+      {
+        "key": "FOCUS",
+        "value": "Next.js · TypeScript · Flutter"
+      },
+      {
+        "key": "OUTPUT",
+        "value": "Client sites · tooling · apps"
+      },
+      {
+        "key": "STATUS",
+        "value": "Open to new work",
+        "led": true
+      }
+    ]
+  },
+  "trajectory": {
+    "$comment": "The one thing on this profile that cannot be copied. Dated from Ammar's own account; the May–Jul 2026 internship is the independently verifiable entry. The years are left to speak for themselves.",
+    "entries": [
+      {
+        "year": "2018",
+        "event": "Asked for computer parts instead of toys"
+      },
+      {
+        "year": "2021",
+        "event": "Installed and learned Linux, aged ten"
+      },
+      {
+        "year": "2023",
+        "event": "Building full-stack, privately"
+      },
+      {
+        "year": "2026",
+        "event": "First paying client, first public repo"
+      },
+      {
+        "year": "2026",
+        "event": "Top 1% of 500+ — Excelerate × SLU"
+      }
+    ]
+  },
+  "recognition": {
+    "$comment": "Verifiable through the Excelerate programme dashboard. Do not add anything here that has no issuer.",
+    "title": "Star Performer — Mobile App Engineering Intern",
+    "issuer": "Excelerate × Saint Louis University",
+    "period": "May – Jul 2026",
+    "facts": [
+      "Top 1% of a 500+ engineer global cohort",
+      "$1,000 scholarship awarded",
+      "100% programme score"
+    ]
+  },
+  "stack": {
+    "$comment": "Only technologies used in shipped work in this repository list. Aspirational entries do not belong here.",
+    "groups": [
+      {
+        "label": "Languages",
+        "items": [
+          "TypeScript",
+          "JavaScript",
+          "Dart",
+          "Python",
+          "SQL"
+        ]
+      },
+      {
+        "label": "Frontend",
+        "items": [
+          "React",
+          "Next.js",
+          "Tailwind CSS",
+          "Framer Motion",
+          "GSAP",
+          "Three.js / R3F"
+        ]
+      },
+      {
+        "label": "Backend",
+        "items": [
+          "Node.js",
+          "Express",
+          "REST",
+          "WebSockets",
+          "Zod"
+        ]
+      },
+      {
+        "label": "Mobile",
+        "items": [
+          "Flutter",
+          "Firebase",
+          "Android build & signing"
+        ]
+      },
+      {
+        "label": "Data",
+        "items": [
+          "PostgreSQL",
+          "MongoDB",
+          "SQLite",
+          "Prisma",
+          "Redis",
+          "Sanity CMS"
+        ]
+      },
+      {
+        "label": "Infra",
+        "items": [
+          "Vercel",
+          "GitHub Actions",
+          "Docker",
+          "Linux",
+          "AWS"
+        ]
+      },
+      {
+        "label": "AI",
+        "items": [
+          "Anthropic API",
+          "OpenAI API",
+          "Claude Code"
+        ]
+      }
+    ]
+  },
+  "toolchain": {
+    "$comment": "The workstation — deliberately disjoint from `stack`. If a tool already appears under stack it does not belong here, or the two tables read as the same list printed twice. Title Case keys to match the other Markdown tables; the SVG panels use caps because a readout is a different surface.",
+    "rows": [
+      {
+        "key": "Editor",
+        "value": "VS Code"
+      },
+      {
+        "key": "Shell",
+        "value": "Git Bash on Windows · Linux on servers"
+      },
+      {
+        "key": "Design",
+        "value": "Figma"
+      },
+      {
+        "key": "Debugging",
+        "value": "Chrome DevTools · Vitest"
+      },
+      {
+        "key": "AI",
+        "value": "Claude Code"
+      },
+      {
+        "key": "Notes",
+        "value": "Obsidian"
+      }
+    ]
+  },
+  "current": {
+    "$comment": "The section that makes the profile look alive. Ammar: keep this honest and current — an out-of-date NOW is worse than no NOW. Defaults below are drawn from repository push dates as of 2026-09-17.",
+    "now": [
+      "LeadFlow — hardening the verification stage and the daily Actions run",
+      "F.F Real Estate — post-launch iteration with the client in Sanity"
+    ],
+    "next": [
+      "A custom domain and a proper case-study write-up for each shipped project"
+    ],
+    "exploring": [
+      "Go, for the parts of the pipeline that should not be TypeScript",
+      "Keeping engineering notes in Obsidian instead of in my head"
+    ]
+  },
+  "philosophy": {
+    "$comment": "Each line is a lesson from a specific shipped project, with the project named as evidence. If a line cannot be traced to real work, it does not go here.",
+    "principles": [
+      {
+        "claim": "A negative result gets verified before it gets trusted.",
+        "evidence": "LeadFlow",
+        "detail": "A saturated DNS resolver looks exactly like a dead domain. That bug once put seven working businesses at the top of a call list, so every negative finding is now re-checked in isolation."
+      },
+      {
+        "claim": "Long jobs are resumable or they are not finished.",
+        "evidence": "LeadFlow",
+        "detail": "Discovery covers a market in tiles, centre-outwards, so a run can be stopped, resumed, or split and retried without losing the work already done."
+      },
+      {
+        "claim": "Hand the client the keys, not a support contract.",
+        "evidence": "F.F Real Estate",
+        "detail": "An embedded Sanity Studio means they publish properties and photos themselves — no code, no second login, no waiting on me."
+      },
+      {
+        "claim": "Every dependency is a future maintenance bill.",
+        "evidence": "Fit Pro Gym",
+        "detail": "A one-page site for a local gym got hand-written HTML, CSS and JavaScript. No bundler, nothing to go stale, nothing to migrate in two years."
+      },
+      {
+        "claim": "AI drafts. I decide what ships.",
+        "evidence": "LeadFlow",
+        "detail": "The resolver bug that poisoned a call list was not caught by a model. Scaffolding, tests and review passes come back fast; accountability for whether the thing is correct does not come back at all."
+      }
+    ]
+  }
+}

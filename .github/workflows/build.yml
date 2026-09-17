@@ -1,0 +1,70 @@
+name: build profile
+
+# Two jobs in one: rebuild whenever the source changes, and refresh the GitHub
+# telemetry on a schedule so the language split and repository count stay true
+# without anyone remembering to run anything.
+#
+# Deliberately NOT here: the Claude usage sync. It reads session transcripts
+# from a local home directory, which a runner does not have. Faking it in CI
+# would mean inventing the numbers, so it stays a local command and its output
+# is committed like any other data.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+      - "scripts/**"
+      - "package.json"
+      - ".github/workflows/build.yml"
+  schedule:
+    # Mondays, 06:00 UTC — often enough to stay current, rare enough that the
+    # commit log does not turn into noise.
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-profile
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - run: npm ci
+
+      # Fails the run rather than shipping unreadable type or a palette that
+      # quietly dropped below AA.
+      - name: Check contrast
+        run: npm run check:contrast
+
+      - name: Refresh GitHub telemetry
+        if: github.event_name != 'push'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: npm run sync:github
+
+      - name: Render assets and README
+        run: npm run build
+
+      - name: Commit if anything changed
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "nothing changed"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets data/github.json
+          git commit -m "build: regenerate profile from data"
+          git push

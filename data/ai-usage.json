@@ -1,0 +1,82 @@
+{
+  "$comment": "AI workbench data. Two kinds of content live here and they are kept strictly apart. `workflow` is a description of how Ammar works — it is editorial and always safe to render. `measured` is numbers, and it is only ever written by `npm run sync:ai`, which counts local Claude Code session transcripts on this machine. Nothing here is estimated, projected or rounded up. If `measured.measuredAt` is null the whole metrics strip is omitted from the README rather than rendered empty.",
+  "workflow": {
+    "$comment": "Where a model actually sits in the loop. `owner` is who has the last word on that stage: `human` means a model does not get to decide it.",
+    "stages": [
+      {
+        "id": "research",
+        "label": "Research",
+        "owner": "assisted",
+        "note": "Docs, prior art, API surfaces"
+      },
+      {
+        "id": "architect",
+        "label": "Architecture",
+        "owner": "human",
+        "note": "Boundaries and data shape"
+      },
+      {
+        "id": "implement",
+        "label": "Implementation",
+        "owner": "assisted",
+        "note": "Scaffolding and first drafts"
+      },
+      {
+        "id": "test",
+        "label": "Testing",
+        "owner": "assisted",
+        "note": "Cases, fixtures, edge inputs"
+      },
+      {
+        "id": "review",
+        "label": "Review",
+        "owner": "human",
+        "note": "Correctness and trade-offs"
+      },
+      {
+        "id": "ship",
+        "label": "Ship",
+        "owner": "human",
+        "note": "What goes out, and when"
+      }
+    ]
+  },
+  "tools": {
+    "$comment": "Tools in actual use. Not a list of everything that exists.",
+    "items": [
+      {
+        "name": "Claude Code",
+        "use": "Primary engineering loop"
+      },
+      {
+        "name": "Anthropic API",
+        "use": "In-product features"
+      },
+      {
+        "name": "OpenAI API",
+        "use": "In-product features"
+      }
+    ]
+  },
+  "measured": {
+    "$comment": "Written by `npm run sync:ai`. Do not hand-edit — if a number here was typed rather than counted, the section has failed its only job. Run the sync locally and commit the result; CI never has access to these files and must not try.",
+    "source": "Local Claude Code session transcripts (~/.claude/projects)",
+    "scope": "One workstation. Reflects retained local history only, not account totals.",
+    "measuredAt": "2026-09-17T19:07:41.507Z",
+    "firstSession": "2026-08-22",
+    "lastSession": "2026-09-17",
+    "sessions": 45,
+    "activeDays": 16,
+    "projects": 14,
+    "modelMix": [
+      {
+        "model": "claude-sonnet-5",
+        "share": 68.3
+      },
+      {
+        "model": "claude-opus-5",
+        "share": 31.7
+      }
+    ]
+  }
+}

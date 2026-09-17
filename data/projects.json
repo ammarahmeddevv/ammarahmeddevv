@@ -1,0 +1,173 @@
+{
+  "$comment": "Selected work only — this is a cut, not a repository dump. `tier: \"selected\"` gets the full editorial treatment; `tier: \"also\"` gets one line in the index. A project with visibility \"private\" renders its access note instead of a dead source link.",
+  "projects": [
+    {
+      "id": "ff-real-estate",
+      "name": "F.F Real Estate",
+      "kind": "Client work",
+      "year": "2026",
+      "tier": "selected",
+      "summary": "A Karachi property firm had no way to be found in a search result and no way to be contacted from one. Every page now routes to the same two actions — WhatsApp or call — behind a filterable listing the client publishes themselves.",
+      "highlights": [
+        "Embedded Sanity Studio at /studio — the client adds properties and photos with no code and no second login",
+        "Filter by purpose, type, location, bedrooms, price and size, with a page per property",
+        "JSON-LD, Open Graph and per-page metadata for the business and every listing"
+      ],
+      "stack": [
+        "Next.js 15",
+        "TypeScript",
+        "Sanity CMS",
+        "Tailwind CSS",
+        "Vercel"
+      ],
+      "status": "Live · iterating",
+      "visibility": "public",
+      "live": "https://ff-real-estate-website.vercel.app",
+      "source": "https://github.com/ammarahmeddevv/ff-real-estate-website"
+    },
+    {
+      "id": "leadflow",
+      "name": "LeadFlow",
+      "kind": "Data pipeline",
+      "year": "2026",
+      "tier": "selected",
+      "summary": "Finds small businesses whose web presence is broken or missing, proves the breakage is real, ranks them by need, and produces a call list where every row carries a specific true observation.",
+      "highlights": [
+        "Deduplication tries five signals strongest-first — provider ID, phone, registrable domain, name within 120 m, then name and city. Merging only fills blanks.",
+        "Every claimed website is fetched and graded into one of nine outcomes, from none_claimed through parked and thin to ok",
+        "Runs itself every morning on GitHub Actions and syncs to Google Sheets without touching human-edited columns"
+      ],
+      "stack": [
+        "TypeScript",
+        "SQLite",
+        "Zod",
+        "Apify",
+        "Google Sheets API",
+        "GitHub Actions",
+        "Vitest"
+      ],
+      "status": "Private · running daily",
+      "visibility": "private",
+      "access": "Private — it runs my own outreach. Happy to walk the architecture and source on a call.",
+      "live": null,
+      "source": null,
+      "metrics": {
+        "caption": "Real runs, not examples.",
+        "head": [
+          "Market",
+          "Found",
+          "Cost",
+          "Qualified"
+        ],
+        "rows": [
+          [
+            "Austin, US",
+            "320",
+            "$1.91",
+            "111"
+          ],
+          [
+            "Toronto, CA",
+            "514",
+            "$3.08",
+            "410"
+          ],
+          [
+            "Munich, DE",
+            "413",
+            "free",
+            "63"
+          ],
+          [
+            "Karachi, PK",
+            "69",
+            "free",
+            "1"
+          ]
+        ],
+        "note": "Karachi returns a single qualified lead because there a missing website usually means not-yet-mapped rather than no website — so absence is never treated as a fact unless something corroborates it."
+      }
+    },
+    {
+      "id": "sales-hub",
+      "name": "Sales Hub",
+      "kind": "Internal tool",
+      "year": "2026",
+      "tier": "selected",
+      "summary": "Pipeline, activity log and lead list in one view, reading and writing a Google Sheet as its database — so the data stays somewhere the owner can still open, sort and fix by hand.",
+      "highlights": [
+        "Google Sheets as the system of record, with the app as a typed interface over it",
+        "Pipeline stages, activity history and lead detail without a second place to keep in sync"
+      ],
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "Google Sheets API",
+        "Tailwind CSS"
+      ],
+      "status": "Live",
+      "visibility": "public",
+      "live": "https://sales-hub-ammarahmednot-8455s-projects.vercel.app",
+      "source": "https://github.com/ammarahmeddevv/sales-hub"
+    },
+    {
+      "id": "event-hub",
+      "name": "Event Hub",
+      "kind": "Team project · Excelerate × SLU",
+      "year": "2026",
+      "tier": "selected",
+      "summary": "A cross-platform event management app built with two other engineers during the mobile internship — the work behind the Star Performer result.",
+      "highlights": [
+        "12+ production screens across home, catalog, profile and event creation",
+        "Debounced real-time search, Firebase auth and live sync, push via Firebase Cloud Messaging",
+        "Built, signed and distributed as an Android APK outside the Play Store"
+      ],
+      "stack": [
+        "Flutter",
+        "Dart",
+        "Firebase",
+        "REST"
+      ],
+      "status": "Delivered",
+      "visibility": "public",
+      "live": null,
+      "source": "https://github.com/siddhantpatil681-afk/Team9-Excelerate-MADJune26-EventManagementApp"
+    },
+    {
+      "id": "nexora",
+      "name": "Nexora",
+      "kind": "Self-initiated · concept",
+      "year": "2026",
+      "tier": "also",
+      "summary": "A concept landing page for a fictional developer platform — built to push scroll-driven motion and WebGL further than a client brief usually allows.",
+      "stack": [
+        "Next.js",
+        "React Three Fiber",
+        "GSAP",
+        "TypeScript"
+      ],
+      "status": "Live",
+      "visibility": "public",
+      "live": "https://nexora-ammarahmednot-8455s-projects.vercel.app",
+      "source": "https://github.com/ammarahmeddevv/nexora"
+    },
+    {
+      "id": "fitpro",
+      "name": "Fit Pro Gym",
+      "kind": "Self-initiated · business pitch",
+      "year": "2025",
+      "tier": "also",
+      "summary": "A one-page site for a Karachi gym with no web presence. Hand-written HTML, CSS and JavaScript — no framework, no bundler, nothing to go stale.",
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "GitHub Pages"
+      ],
+      "status": "Live",
+      "visibility": "public",
+      "live": "https://ammarahmeddevv.github.io/fitpro-gym-website/",
+      "source": "https://github.com/ammarahmeddevv/fitpro-gym-website"
+    }
+  ]
+}
