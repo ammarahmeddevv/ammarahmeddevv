@@ -13,14 +13,6 @@ I build production web and mobile software end to end — client sites that have
 | **OUTPUT** | Client sites · tooling · apps |
 | **STATUS** | Open to new work ● |
 
-| | |
-|---|---|
-| **2018** | Asked for computer parts instead of toys |
-| **2021** | Installed and learned Linux, aged ten |
-| **2023** | Building full-stack, privately |
-| **2026** | First paying client, first public repo |
-| **2026** | Top 1% of 500+ — Excelerate × SLU |
-
 **Star Performer — Mobile App Engineering Intern** · Excelerate × Saint Louis University · May – Jul 2026  
 Top 1% of a 500+ engineer global cohort · \$1,000 scholarship awarded · 100% programme score
 

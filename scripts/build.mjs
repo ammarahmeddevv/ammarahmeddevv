@@ -103,9 +103,6 @@ function readme() {
   o.push(table(P.snapshot.rows.map((r) => [r.key, r.value + (r.led ? " ●" : "")])));
   o.push("");
 
-  o.push(table(P.trajectory.entries.map((e) => [e.year, e.event])));
-  o.push("");
-
   const rec = P.recognition;
   o.push(`**${rec.title}** · ${rec.issuer} · ${rec.period}  `);
   o.push(md(rec.facts.join(" · ")));
