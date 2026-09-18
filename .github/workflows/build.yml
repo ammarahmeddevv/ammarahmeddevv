@@ -4,6 +4,10 @@ name: build profile
 # telemetry on a schedule so the language split and repository count stay true
 # without anyone remembering to run anything.
 #
+# README.md is plain markdown — no images, no build dependencies, no font
+# files to outline. `npm ci` here is a formality; package.json has nothing in
+# it to install.
+#
 # Deliberately NOT here: the Claude usage sync. It reads session transcripts
 # from a local home directory, which a runner does not have. Faking it in CI
 # would mean inventing the numbers, so it stays a local command and its output
@@ -43,18 +47,13 @@ jobs:
 
       - run: npm ci
 
-      # Fails the run rather than shipping unreadable type or a palette that
-      # quietly dropped below AA.
-      - name: Check contrast
-        run: npm run check:contrast
-
       - name: Refresh GitHub telemetry
         if: github.event_name != 'push'
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: npm run sync:github
 
-      - name: Render assets and README
+      - name: Render README
         run: npm run build
 
       - name: Commit if anything changed
@@ -65,6 +64,6 @@ jobs:
           fi
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md assets data/github.json
+          git add README.md data/github.json
           git commit -m "build: regenerate profile from data"
           git push
