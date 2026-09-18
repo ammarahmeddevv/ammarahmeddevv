@@ -72,3 +72,27 @@ faces the portfolio uses. They are read at build time and outlined to vector
 paths, so nothing is fetched when someone views the profile — GitHub proxies
 README images and would block a webfont anyway. Replacing a font file changes
 the rendered type everywhere; rebuild after.
+
+## The live dashboard (`site/`)
+
+`site/index.html` + `styles.css` + `app.js` is a second, independent surface —
+a real web page deployed to GitHub Pages, not a README image. It is
+**genuinely interactive** (theme toggle, expandable project cards, hover
+states) in a way nothing in the README can be, because GitHub proxies README
+images through camo and strips any script.
+
+It needs **no rebuild** when `data/*.json` changes: at every page load it
+fetches `profile.json`, `projects.json` and `ai-usage.json` straight from
+`raw.githubusercontent.com` on this repo's `main` branch, and fetches the
+GITHUB panel's language stats live from `api.github.com` in the visitor's own
+browser. Push a data change, and the dashboard reflects it on the next load —
+no `npm run build`, no redeploy.
+
+`npm run build` never touches `site/`. Only edit the three files in `site/`
+directly, and only when you want to change the dashboard's *structure* —
+content changes belong in `data/`, same as the README.
+
+Deploys via `.github/workflows/pages.yml`, which only runs when `site/**`
+changes. First-time setup needs GitHub Pages enabled once with build type
+"workflow" (`gh api -X POST repos/<owner>/<repo>/pages -f build_type=workflow`
+or **Settings → Pages → Source: GitHub Actions**) — already done for this repo.

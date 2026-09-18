@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ammar Ahmed — Full-Stack & Mobile Developer</title>
+<meta name="description" content="Full-stack and mobile developer in Karachi, Pakistan. Live engineering dossier — selected work, stack, and real measured GitHub activity.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-id"><b>AMMAR AHMED</b><span class="sub"> · engineering dossier</span></div>
+  <div class="topbar-actions">
+    <span class="clock" id="clock" aria-live="off"></span>
+    <button class="theme-btn" id="themeBtn" type="button" aria-label="Toggle light and dark theme">DARK</button>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <section class="hero">
+    <span class="tick"></span>
+    <h1>Ammar Ahmed</h1>
+    <div class="hero-meta">
+      <span class="hero-role" id="heroRole">FULL-STACK &amp; MOBILE DEVELOPER</span>
+      <span class="hero-place" id="heroPlace">KARACHI, PK</span>
+    </div>
+    <p class="statement" id="statement"></p>
+    <nav class="links" id="links"></nav>
+  </section>
+
+  <!-- system + trajectory -->
+  <section class="panel">
+    <div class="panel-label">SYSTEM</div>
+    <div id="systemRows"></div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-label">TRAJECTORY</div>
+    <div class="trajectory" id="trajectory"></div>
+  </section>
+
+  <section class="panel" id="recognitionPanel" style="display:none">
+    <div class="panel-label">RECOGNITION</div>
+    <p style="margin:0 0 6px;font-weight:500" id="recTitle"></p>
+    <p style="margin:0;color:var(--meta);font-size:14px" id="recFacts"></p>
+  </section>
+
+  <!-- selected work -->
+  <section>
+    <div class="panel-label" style="margin:40px 0 18px">SELECTED WORK</div>
+    <div id="projects"></div>
+    <div id="alsoPublic"></div>
+  </section>
+
+  <!-- stack -->
+  <section class="panel">
+    <div class="panel-label">STACK</div>
+    <dl class="stack-grid" id="stackGrid"></dl>
+  </section>
+
+  <!-- ai workbench -->
+  <section class="panel">
+    <div class="panel-label">AI WORKBENCH</div>
+    <p class="panel-sub">Where a model sits in the loop — and where it does not. Hover a stage.</p>
+    <div class="flow" id="flow"></div>
+    <div class="legend">
+      <span><span class="dot"></span> I decide</span>
+      <span><span class="dot ai"></span> drafted, then reviewed</span>
+    </div>
+    <div id="measuredBlock"></div>
+  </section>
+
+  <!-- github, fetched live -->
+  <section class="panel">
+    <div class="panel-label">GITHUB — LIVE</div>
+    <p class="panel-sub" id="ghSub">Fetching from the GitHub API…</p>
+    <div class="bar" id="langBar"></div>
+    <div class="bar-legend" id="langLegend"></div>
+    <div class="measured-grid" id="ghGrid"></div>
+  </section>
+
+  <!-- currently -->
+  <section class="panel">
+    <div class="panel-label">CURRENTLY</div>
+    <div class="currently-grid" id="currently"></div>
+  </section>
+
+  <!-- philosophy -->
+  <section class="panel">
+    <div class="panel-label">HOW I WORK</div>
+    <div id="philosophy"></div>
+  </section>
+
+  <!-- toolchain -->
+  <section class="panel">
+    <div class="panel-label">TOOLCHAIN</div>
+    <dl class="stack-grid" id="toolGrid"></dl>
+  </section>
+
+  <footer>
+    <span id="footerId"></span>
+    <span id="footerLinks"></span>
+  </footer>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

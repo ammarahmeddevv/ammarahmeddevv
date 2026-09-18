@@ -12,6 +12,7 @@
   },
   "links": {
     "$comment": "Only links that resolve today. Leave a value as null and it is omitted from every rendered surface — no dead links, no placeholder buttons.",
+    "dashboard": "https://ammarahmeddevv.github.io/ammarahmeddevv/",
     "github": "https://github.com/ammarahmeddevv",
     "portfolio": "https://portfolio-ammarahmednot-8455s-projects.vercel.app",
     "email": "work.ammarahmed@gmail.com",

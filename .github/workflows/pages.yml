@@ -1,0 +1,38 @@
+name: deploy live dashboard
+
+# Publishes site/ to GitHub Pages. The page itself fetches data/*.json and
+# api.github.com at request time in the visitor's browser — this workflow
+# only ships the HTML/CSS/JS shell, so it redeploys on the rare occasion that
+# actually changes, not on every data edit.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/**"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -5,7 +5,9 @@
 
 I build production web and mobile software end to end — client sites that have to convert, internal tools that have to be right, and pipelines that run without me.
 
-[GitHub](https://github.com/ammarahmeddevv)  ·  [Portfolio](https://portfolio-ammarahmednot-8455s-projects.vercel.app)  ·  [work.ammarahmed@gmail.com](mailto:work.ammarahmed@gmail.com)
+[**Live Dashboard ↗**](https://ammarahmeddevv.github.io/ammarahmeddevv/)  ·  [GitHub](https://github.com/ammarahmeddevv)  ·  [Portfolio](https://portfolio-ammarahmednot-8455s-projects.vercel.app)  ·  [work.ammarahmed@gmail.com](mailto:work.ammarahmed@gmail.com)
+
+<sub>The panels below are static images — GitHub renders README images through a proxy that blocks scripts. The [live dashboard](https://ammarahmeddevv.github.io/ammarahmeddevv/) is a real page: it fetches this same data at request time and the GitHub activity below is pulled straight from the API in your browser, not baked in ahead of time.</sub>
 
 ---
 
@@ -179,6 +181,6 @@ Keeping engineering notes in Obsidian instead of in my head
 ---
 
 **Ammar Ahmed** · Karachi, Pakistan · PKT / UTC+5  
-[GitHub](https://github.com/ammarahmeddevv)  ·  [Portfolio](https://portfolio-ammarahmednot-8455s-projects.vercel.app)  ·  [work.ammarahmed@gmail.com](mailto:work.ammarahmed@gmail.com)
+[Live Dashboard](https://ammarahmeddevv.github.io/ammarahmeddevv/)  ·  [GitHub](https://github.com/ammarahmeddevv)  ·  [Portfolio](https://portfolio-ammarahmednot-8455s-projects.vercel.app)  ·  [work.ammarahmed@gmail.com](mailto:work.ammarahmed@gmail.com)
 
 <sub>Built from `data/*.json` — every figure on this page traces to a repository, a run log, or a programme record.</sub>

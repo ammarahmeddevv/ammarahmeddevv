@@ -363,9 +363,18 @@ function readme() {
   o.push(id.statement);
   o.push("");
   o.push(linkRow([
+    [L.dashboard ? "**Live Dashboard ↗**" : null, L.dashboard],
     ["GitHub", L.github], ["Portfolio", L.portfolio],
     ["LinkedIn", L.linkedin], [`${L.email}`, `mailto:${L.email}`],
   ]));
+  if (L.dashboard) {
+    o.push("");
+    o.push(
+      "<sub>The panels below are static images — GitHub renders README images through a proxy that blocks scripts. " +
+      "The [live dashboard](" + L.dashboard + ") is a real page: it fetches this same data at request time and the GitHub " +
+      "activity below is pulled straight from the API in your browser, not baked in ahead of time.</sub>"
+    );
+  }
   o.push("");
   o.push("---");
   o.push("");
@@ -466,6 +475,7 @@ function readme() {
 
   o.push(`**${id.name}** · ${id.location} · ${id.timezone}  `);
   o.push(linkRow([
+    ["Live Dashboard", L.dashboard],
     ["GitHub", L.github], ["Portfolio", L.portfolio],
     ["LinkedIn", L.linkedin], [L.email, `mailto:${L.email}`],
   ]));
