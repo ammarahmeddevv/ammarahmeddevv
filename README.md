@@ -7,8 +7,6 @@ I build production web and mobile software end to end — client sites that have
 
 [**Live Dashboard ↗**](https://ammarahmeddevv.github.io/ammarahmeddevv/)  ·  [GitHub](https://github.com/ammarahmeddevv)  ·  [Portfolio](https://portfolio-ammarahmednot-8455s-projects.vercel.app)  ·  [work.ammarahmed@gmail.com](mailto:work.ammarahmed@gmail.com)
 
-<sub>The panels below are static images — GitHub renders README images through a proxy that blocks scripts. The [live dashboard](https://ammarahmeddevv.github.io/ammarahmeddevv/) is a real page: it fetches this same data at request time and the GitHub activity below is pulled straight from the API in your browser, not baked in ahead of time.</sub>
-
 ---
 
 <picture>
@@ -18,8 +16,6 @@ I build production web and mobile software end to end — client sites that have
 
 **Star Performer — Mobile App Engineering Intern** · Excelerate × Saint Louis University · May – Jul 2026  
 Top 1% of a 500+ engineer global cohort · \$1,000 scholarship awarded · 100% programme score
-
----
 
 ## Selected work
 
@@ -33,9 +29,8 @@ A Karachi property firm had no way to be found in a search result and no way to 
 - Filter by purpose, type, location, bedrooms, price and size, with a page per property
 - JSON-LD, Open Graph and per-page metadata for the business and every listing
 
-`Next.js 15` `TypeScript` `Sanity CMS` `Tailwind CSS` `Vercel`
-
-[Live](https://ff-real-estate-website.vercel.app)  ·  [Source](https://github.com/ammarahmeddevv/ff-real-estate-website)
+Next.js 15 · TypeScript · Sanity CMS · Tailwind CSS · Vercel  
+[Live ↗](https://ff-real-estate-website.vercel.app)  ·  [Source ↗](https://github.com/ammarahmeddevv/ff-real-estate-website)
 
 ### LeadFlow
 
@@ -56,8 +51,7 @@ Finds small businesses whose web presence is broken or missing, proves the break
 
 <sub>Real runs, not examples. Karachi returns a single qualified lead because there a missing website usually means not-yet-mapped rather than no website — so absence is never treated as a fact unless something corroborates it.</sub>
 
-`TypeScript` `SQLite` `Zod` `Apify` `Google Sheets API` `GitHub Actions` `Vitest`
-
+TypeScript · SQLite · Zod · Apify · Google Sheets API · GitHub Actions · Vitest  
 <sub>Private — it runs my own outreach. Happy to walk the architecture and source on a call.</sub>
 
 ### Sales Hub
@@ -69,9 +63,8 @@ Pipeline, activity log and lead list in one view, reading and writing a Google S
 - Google Sheets as the system of record, with the app as a typed interface over it
 - Pipeline stages, activity history and lead detail without a second place to keep in sync
 
-`Next.js` `TypeScript` `Google Sheets API` `Tailwind CSS`
-
-[Live](https://sales-hub-ammarahmednot-8455s-projects.vercel.app)  ·  [Source](https://github.com/ammarahmeddevv/sales-hub)
+Next.js · TypeScript · Google Sheets API · Tailwind CSS  
+[Live ↗](https://sales-hub-ammarahmednot-8455s-projects.vercel.app)  ·  [Source ↗](https://github.com/ammarahmeddevv/sales-hub)
 
 ### Event Hub
 
@@ -83,33 +76,28 @@ A cross-platform event management app built with two other engineers during the 
 - Debounced real-time search, Firebase auth and live sync, push via Firebase Cloud Messaging
 - Built, signed and distributed as an Android APK outside the Play Store
 
-`Flutter` `Dart` `Firebase` `REST`
-
-[Source](https://github.com/siddhantpatil681-afk/Team9-Excelerate-MADJune26-EventManagementApp)
+Flutter · Dart · Firebase · REST  
+[Source ↗](https://github.com/siddhantpatil681-afk/Team9-Excelerate-MADJune26-EventManagementApp)
 
 ### Also public
 
 **Nexora** — A concept landing page for a fictional developer platform — built to push scroll-driven motion and WebGL further than a client brief usually allows.  
-`Next.js` `React Three Fiber` `GSAP` `TypeScript`  ·  [Live](https://nexora-ammarahmednot-8455s-projects.vercel.app)  ·  [Source](https://github.com/ammarahmeddevv/nexora)
+Next.js · React Three Fiber · GSAP · TypeScript  ·  [Live ↗](https://nexora-ammarahmednot-8455s-projects.vercel.app)  ·  [Source ↗](https://github.com/ammarahmeddevv/nexora)
 
 **Fit Pro Gym** — A one-page site for a Karachi gym with no web presence. Hand-written HTML, CSS and JavaScript — no framework, no bundler, nothing to go stale.  
-`HTML` `CSS` `JavaScript` `GitHub Pages`  ·  [Live](https://ammarahmeddevv.github.io/fitpro-gym-website/)  ·  [Source](https://github.com/ammarahmeddevv/fitpro-gym-website)
-
----
+HTML · CSS · JavaScript · GitHub Pages  ·  [Live ↗](https://ammarahmeddevv.github.io/fitpro-gym-website/)  ·  [Source ↗](https://github.com/ammarahmeddevv/fitpro-gym-website)
 
 ## Stack
 
 | | |
 |---|---|
-| **Languages** | `TypeScript` `JavaScript` `Dart` `Python` `SQL` |
-| **Frontend** | `React` `Next.js` `Tailwind CSS` `Framer Motion` `GSAP` `Three.js / R3F` |
-| **Backend** | `Node.js` `Express` `REST` `WebSockets` `Zod` |
-| **Mobile** | `Flutter` `Firebase` `Android build & signing` |
-| **Data** | `PostgreSQL` `MongoDB` `SQLite` `Prisma` `Redis` `Sanity CMS` |
-| **Infra** | `Vercel` `GitHub Actions` `Docker` `Linux` `AWS` |
-| **AI** | `Anthropic API` `OpenAI API` `Claude Code` |
-
----
+| **Languages** | TypeScript · JavaScript · Dart · Python · SQL |
+| **Frontend** | React · Next.js · Tailwind CSS · Framer Motion · GSAP · Three.js / R3F |
+| **Backend** | Node.js · Express · REST · WebSockets · Zod |
+| **Mobile** | Flutter · Firebase · Android build & signing |
+| **Data** | PostgreSQL · MongoDB · SQLite · Prisma · Redis · Sanity CMS |
+| **Infra** | Vercel · GitHub Actions · Docker · Linux · AWS |
+| **AI** | Anthropic API · OpenAI API · Claude Code |
 
 ## AI workbench
 
@@ -120,8 +108,6 @@ A cross-platform event management app built with two other engineers during the 
 
 <sub>Counted from local Claude Code session transcripts, last measured 2026-09-17. One workstation. Reflects retained local history only, not account totals. No token counts or spend — a subscription has no honest per-session cost, so nothing here is denominated in either.</sub>
 
----
-
 ## GitHub
 
 <picture>
@@ -130,8 +116,6 @@ A cross-platform event management app built with two other engineers during the 
 </picture>
 
 <sub>Measured in bytes across public repositories on 2026-09-17, not self-reported. Regenerated by `npm run sync:github`.</sub>
-
----
 
 ## Currently
 
@@ -145,8 +129,6 @@ A custom domain and a proper case-study write-up for each shipped project
 **Exploring**  
 Go, for the parts of the pipeline that should not be TypeScript  
 Keeping engineering notes in Obsidian instead of in my head
-
----
 
 ## How I work
 
@@ -164,8 +146,6 @@ Keeping engineering notes in Obsidian instead of in my head
 
 **AI drafts. I decide what ships.**  
 <sub>LeadFlow</sub> — The resolver bug that poisoned a call list was not caught by a model. Scaffolding, tests and review passes come back fast; accountability for whether the thing is correct does not come back at all.
-
----
 
 ## Toolchain
 
